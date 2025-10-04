@@ -1,0 +1,41 @@
+0                    INFO    timeline               Timeline initial network
+0                    INFO    timeline               Timeline start simulation
+200,000,000          INFO    request_app            Successful reservation of resources for request app on node left
+1,000,100,000,000    INFO    generation             right protocol start with partner left
+1,000,200,000,000    INFO    generation             left protocol start with partner right
+1,000,200,000,000    DEBUG   generation             left EG protocol received_message of type GenerationMsgType.NEGOTIATE from node right, round=1
+1,000,300,000,000    DEBUG   generation             right EG protocol received_message of type GenerationMsgType.NEGOTIATE_ACK from node left, round=1
+1,000,350,000,000    DEBUG   bsm                    BSM.left.right.auto.BSM received photon
+1,000,350,000,000    DEBUG   bsm                    BSM.left.right.auto.BSM received photon
+1,000,400,000,010    INFO    generation             left protocol start with partner right
+1,000,400,000,010    INFO    generation             left failed entanglement of memory <src.components.memory.Memory object at 0x10c38f380>
+1,000,400,000,010    INFO    generation             right protocol start with partner left
+1,000,400,000,010    INFO    generation             right failed entanglement of memory <src.components.memory.Memory object at 0x111845e00>
+1,000,500,000,010    INFO    generation             right protocol start with partner left
+1,000,600,000,010    INFO    generation             left protocol start with partner right
+1,000,600,000,010    DEBUG   generation             left EG protocol received_message of type GenerationMsgType.NEGOTIATE from node right, round=1
+1,000,700,000,010    DEBUG   generation             right EG protocol received_message of type GenerationMsgType.NEGOTIATE_ACK from node left, round=1
+1,000,750,000,010    DEBUG   bsm                    BSM.left.right.auto.BSM received photon
+1,000,750,000,010    DEBUG   bsm                    BSM.left.right.auto.BSM received photon
+1,000,800,000,020    INFO    generation             left protocol start with partner right
+1,000,800,000,020    INFO    generation             left failed entanglement of memory <src.components.memory.Memory object at 0x10c38f380>
+1,000,800,000,020    INFO    generation             right protocol start with partner left
+1,000,800,000,020    INFO    generation             right failed entanglement of memory <src.components.memory.Memory object at 0x111845e00>
+1,000,900,000,020    INFO    generation             right protocol start with partner left
+1,001,000,000,020    INFO    generation             left protocol start with partner right
+1,001,000,000,020    DEBUG   generation             left EG protocol received_message of type GenerationMsgType.NEGOTIATE from node right, round=1
+1,001,100,000,020    DEBUG   generation             right EG protocol received_message of type GenerationMsgType.NEGOTIATE_ACK from node left, round=1
+1,001,150,000,020    DEBUG   bsm                    BSM.left.right.auto.BSM received photon
+1,001,150,000,020    DEBUG   bsm                    BSM.left.right.auto.BSM received photon
+1,001,200,000,020    DEBUG   generation             left EG protocol received_message of type GenerationMsgType.MEAS_RES from node BSM.left.right.auto, round=1
+1,001,200,000,020    DEBUG   generation             left received MEAS_RES 0 at time 1001150000020, expected 1001150000020, resolution=1, round=1
+1,001,200,000,020    DEBUG   generation             right EG protocol received_message of type GenerationMsgType.MEAS_RES from node BSM.left.right.auto, round=1
+1,001,200,000,020    DEBUG   generation             right received MEAS_RES 0 at time 1001150000020, expected 1001150000020, resolution=1, round=1
+1,001,200,000,020    DEBUG   generation             left EG protocol received_message of type GenerationMsgType.MEAS_RES from node BSM.left.right.auto, round=1
+1,001,200,000,020    DEBUG   generation             left received MEAS_RES 1 at time 1001150000020, expected 1001150000020, resolution=1, round=1
+1,001,200,000,020    DEBUG   generation             right EG protocol received_message of type GenerationMsgType.MEAS_RES from node BSM.left.right.auto, round=1
+1,001,200,000,020    DEBUG   generation             right received MEAS_RES 1 at time 1001150000020, expected 1001150000020, resolution=1, round=1
+1,001,200,000,030    INFO    generation             left protocol start with partner right
+1,001,200,000,030    INFO    generation             left successful entanglement of memory <src.components.memory.Memory object at 0x10c38f380>
+1,001,200,000,030    INFO    request_app            Successfully generated entanglement. Counter is at 1.
+1,009,950,000,240    INFO    timeline               Timeline end simulation. Execution Time: 6048000 ns; Scheduled Event: 301; Executed Event: 288
