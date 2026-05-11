@@ -1,0 +1,1 @@
+This folder is the implementation of Quantum Local Area Network (QLAN) from paper [Simulation of Quantum Transduction Strategies for Quantum Networks](https://arxiv.org/pdf/2411.11377)
