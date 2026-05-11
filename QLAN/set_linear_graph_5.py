@@ -5,8 +5,9 @@
 from sequence.kernel.timeline import Timeline
 from sequence.topology.node import Node
 from sequence.components.memory import Memory
-from sequence.qlan.graph_gen import entangle_memory
-from sequence.qlan.measurement import QlanMeasurementProtocol
+
+from qlan.graph_gen import entangle_memory
+from qlan.measurement import QlanMeasurementProtocol
 
 
 class GraphStateManager:

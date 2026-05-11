@@ -1,10 +1,13 @@
+from pathlib import Path
+
 from sequence.kernel.process import Process
 from sequence.kernel.event import Event
-from sequence.topology.qlan_star_topo import QlanStarTopo
 from sequence.kernel.timeline import Timeline
 import sequence.utils.log as log
-from sequence.topology.qlan.orchestrator import QlanOrchestratorNode
-from sequence.topology.qlan.client import QlanClientNode
+
+from qlan.client import QlanClientNode
+from qlan.orchestrator import QlanOrchestratorNode
+from qlan_star_topo import QlanStarTopo
 
 
 class QlanApp:
@@ -99,7 +102,8 @@ class QlanApp:
 if __name__ == "__main__":
 
     NUM_CLIENTS= 3
-    network_config = f"example/QLAN/topologies/qlan_topology_{NUM_CLIENTS}.json"
+    qlan_dir = Path(__file__).resolve().parent
+    network_config = str(qlan_dir / "topologies" / f"qlan_topology_{NUM_CLIENTS}.json")
 
     NUM_PERIODS = 3
     PERIOD = 1e12
@@ -110,7 +114,7 @@ if __name__ == "__main__":
     tl.stop_time = PERIOD * NUM_PERIODS
     tl.show_progress = True
 
-    log_filename = "example/qlan/qlan_app.log"
+    log_filename = str(qlan_dir / "qlan_app.log")
     log.set_logger(__name__, tl, log_filename)
     log.set_logger_level('DEBUG')
     #log.set_logger_level('INFO')

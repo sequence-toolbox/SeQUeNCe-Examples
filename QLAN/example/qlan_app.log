@@ -1,0 +1,252 @@
+0                    INFO    correction             
+PROTOCOL STARTED: Correction Protocol starts at node client1
+0                    INFO    correction             
+PROTOCOL STARTED: Correction Protocol starts at node client2
+0                    INFO    correction             
+PROTOCOL STARTED: Correction Protocol starts at node client3
+0                    INFO    measurement            
+PROTOCOL STARTED: Measurement Protocol starts at node Orchestrator
+0                    DEBUG   measurement            
+ORCHESTRATOR DEBUG: init message_list defaultdict(<class 'list'>, {})
+0                    DEBUG   measurement            
+ORCHESTRATOR DEBUG: adjacent_nodes {3: [0, 1], 4: [1, 2]}
+0                    DEBUG   measurement            
+ORCHESTRATOR DEBUG: local_memory_identifiers [3, 4]
+0                    DEBUG   measurement            
+ORCHESTRATOR DEBUG: CURRENT IDENTIFIER 3
+0                    DEBUG   measurement            
+ORCHESTRATOR DEBUG: Na is now updated [0, 1]
+0                    INFO    measurement            
+ORCHESTRATOR: Selected b0 = 1 from {3: [0, 1], 4: [1, 2]}
+0                    DEBUG   measurement            
+ORCHESTRATOR DEBUG: Nb0 is now updated [3, 4]
+0                    INFO    measurement            
+ORCHESTRATOR: Sending: QlanB0MsgType.B0_Designation to client2 at 0
+0                    DEBUG   measurement            
+ORCHESTRATOR DEBUG: message_list defaultdict(<class 'list'>, {0: [<QlanMeasurementMsgType.X_Outcome0: 5>], 1: [<QlanMeasurementMsgType.X_Outcome0: 5>]})
+0                    DEBUG   measurement            
+ORCHESTRATOR DEBUG: updated adjacent nodes: {3: [], 4: [0, 2]}
+0                    DEBUG   measurement            
+ORCHESTRATOR DEBUG: CURRENT IDENTIFIER 4
+0                    DEBUG   measurement            
+ORCHESTRATOR DEBUG: Na is now updated [0, 2]
+0                    INFO    measurement            
+ORCHESTRATOR: Selected b0 = 2 from {3: [], 4: [0, 2]}
+0                    DEBUG   measurement            
+ORCHESTRATOR DEBUG: Nb0 is now updated [4]
+0                    INFO    measurement            
+ORCHESTRATOR: Sending: QlanB0MsgType.B0_Designation to client3 at 0
+0                    DEBUG   measurement            
+ORCHESTRATOR DEBUG: message_list defaultdict(<class 'list'>, {0: [<QlanMeasurementMsgType.X_Outcome0: 5>, <QlanMeasurementMsgType.X_Outcome0: 5>], 1: [<QlanMeasurementMsgType.X_Outcome0: 5>], 2: [<QlanMeasurementMsgType.X_Outcome0: 5>]})
+0                    DEBUG   measurement            
+ORCHESTRATOR DEBUG: updated adjacent nodes: {3: [], 4: []}
+0                    INFO    measurement            
+MESSAGE SENT: Orchestrator is sending: QlanMeasurementMsgType.X_Outcome0 to client1 at 0
+0                    INFO    measurement            
+MESSAGE SENT: Orchestrator is sending: QlanMeasurementMsgType.X_Outcome0 to client1 at 0
+0                    INFO    measurement            
+MESSAGE SENT: Orchestrator is sending: QlanMeasurementMsgType.X_Outcome0 to client2 at 0
+0                    INFO    measurement            
+MESSAGE SENT: Orchestrator is sending: QlanMeasurementMsgType.X_Outcome0 to client3 at 0
+500,000,000          INFO    correction             
+MESSAGE RECEIVED: client2 received message from Orchestrator of type QlanB0MsgType.B0_Designation  at 500000000
+500,000,000          INFO    correction             
+MESSAGE RECEIVED: client3 received message from Orchestrator of type QlanB0MsgType.B0_Designation  at 500000000
+500,000,000          INFO    correction             
+MESSAGE RECEIVED: client1 received message from Orchestrator of type QlanMeasurementMsgType.X_Outcome0  at 500000000
+500,000,000          INFO    correction             
+APPLYING CORRECTION: Applying Z at client1
+500,000,000          INFO    correction             
+PROTOCOL ENDED: client1 executed Correction Protocol at 500000000
+500,000,000          INFO    correction             
+MESSAGE RECEIVED: client1 received message from Orchestrator of type QlanMeasurementMsgType.X_Outcome0  at 500000000
+500,000,000          INFO    correction             
+APPLYING CORRECTION: Applying Z at client1
+500,000,000          INFO    correction             
+PROTOCOL ENDED: client1 executed Correction Protocol at 500000000
+500,000,000          INFO    correction             
+MESSAGE RECEIVED: client2 received message from Orchestrator of type QlanMeasurementMsgType.X_Outcome0  at 500000000
+500,000,000          INFO    correction             
+APPLYING CORRECTION: Applying minus root iY at client2
+500,000,000          INFO    correction             
+PROTOCOL ENDED: client2 executed Correction Protocol at 500000000
+500,000,000          INFO    correction             
+MESSAGE RECEIVED: client3 received message from Orchestrator of type QlanMeasurementMsgType.X_Outcome0  at 500000000
+500,000,000          INFO    correction             
+APPLYING CORRECTION: Applying minus root iY at client3
+500,000,000          INFO    correction             
+PROTOCOL ENDED: client3 executed Correction Protocol at 500000000
+1,000,000,000        INFO    measurement            
+MESSAGE RECEIVED: Orchestrator received ACK message from client1 at 1000000000
+1,000,000,000        INFO    measurement            
+MESSAGE RECEIVED: Orchestrator received ACK message from client1 at 1000000000
+1,000,000,000        INFO    measurement            
+MESSAGE RECEIVED: Orchestrator received ACK message from client2 at 1000000000
+1,000,000,000        INFO    measurement            
+MESSAGE RECEIVED: Orchestrator received ACK message from client3 at 1000000000
+1,000,000,000,000    INFO    correction             
+PROTOCOL STARTED: Correction Protocol starts at node client1
+1,000,000,000,000    INFO    correction             
+PROTOCOL STARTED: Correction Protocol starts at node client2
+1,000,000,000,000    INFO    correction             
+PROTOCOL STARTED: Correction Protocol starts at node client3
+1,000,000,000,000    INFO    measurement            
+PROTOCOL STARTED: Measurement Protocol starts at node Orchestrator
+1,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: init message_list {}
+1,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: adjacent_nodes {3: [0, 1], 4: [1, 2]}
+1,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: local_memory_identifiers [3, 4]
+1,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: CURRENT IDENTIFIER 3
+1,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: Na is now updated [0, 1]
+1,000,000,000,000    INFO    measurement            
+ORCHESTRATOR: Selected b0 = 1 from {3: [0, 1], 4: [1, 2]}
+1,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: Nb0 is now updated [3, 4]
+1,000,000,000,000    INFO    measurement            
+ORCHESTRATOR: Sending: QlanB0MsgType.B0_Designation to client2 at 1000000000000.0
+1,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: message_list {0: [<QlanMeasurementMsgType.X_Outcome0: 5>], 1: [<QlanMeasurementMsgType.X_Outcome0: 5>]}
+1,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: updated adjacent nodes: {3: [], 4: [0, 2]}
+1,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: CURRENT IDENTIFIER 4
+1,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: Na is now updated [0, 2]
+1,000,000,000,000    INFO    measurement            
+ORCHESTRATOR: Selected b0 = 2 from {3: [], 4: [0, 2]}
+1,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: Nb0 is now updated [4]
+1,000,000,000,000    INFO    measurement            
+ORCHESTRATOR: Sending: QlanB0MsgType.B0_Designation to client3 at 1000000000000.0
+1,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: message_list {0: [<QlanMeasurementMsgType.X_Outcome0: 5>, <QlanMeasurementMsgType.X_Outcome0: 5>], 1: [<QlanMeasurementMsgType.X_Outcome0: 5>], 2: [<QlanMeasurementMsgType.X_Outcome0: 5>]}
+1,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: updated adjacent nodes: {3: [], 4: []}
+1,000,000,000,000    INFO    measurement            
+MESSAGE SENT: Orchestrator is sending: QlanMeasurementMsgType.X_Outcome0 to client1 at 1000000000000.0
+1,000,000,000,000    INFO    measurement            
+MESSAGE SENT: Orchestrator is sending: QlanMeasurementMsgType.X_Outcome0 to client1 at 1000000000000.0
+1,000,000,000,000    INFO    measurement            
+MESSAGE SENT: Orchestrator is sending: QlanMeasurementMsgType.X_Outcome0 to client2 at 1000000000000.0
+1,000,000,000,000    INFO    measurement            
+MESSAGE SENT: Orchestrator is sending: QlanMeasurementMsgType.X_Outcome0 to client3 at 1000000000000.0
+1,000,500,000,000    INFO    correction             
+MESSAGE RECEIVED: client2 received message from Orchestrator of type QlanB0MsgType.B0_Designation  at 1000500000000
+1,000,500,000,000    INFO    correction             
+MESSAGE RECEIVED: client3 received message from Orchestrator of type QlanB0MsgType.B0_Designation  at 1000500000000
+1,000,500,000,000    INFO    correction             
+MESSAGE RECEIVED: client1 received message from Orchestrator of type QlanMeasurementMsgType.X_Outcome0  at 1000500000000
+1,000,500,000,000    INFO    correction             
+APPLYING CORRECTION: Applying Z at client1
+1,000,500,000,000    INFO    correction             
+PROTOCOL ENDED: client1 executed Correction Protocol at 1000500000000
+1,000,500,000,000    INFO    correction             
+MESSAGE RECEIVED: client1 received message from Orchestrator of type QlanMeasurementMsgType.X_Outcome0  at 1000500000000
+1,000,500,000,000    INFO    correction             
+APPLYING CORRECTION: Applying Z at client1
+1,000,500,000,000    INFO    correction             
+PROTOCOL ENDED: client1 executed Correction Protocol at 1000500000000
+1,000,500,000,000    INFO    correction             
+MESSAGE RECEIVED: client2 received message from Orchestrator of type QlanMeasurementMsgType.X_Outcome0  at 1000500000000
+1,000,500,000,000    INFO    correction             
+APPLYING CORRECTION: Applying minus root iY at client2
+1,000,500,000,000    INFO    correction             
+PROTOCOL ENDED: client2 executed Correction Protocol at 1000500000000
+1,000,500,000,000    INFO    correction             
+MESSAGE RECEIVED: client3 received message from Orchestrator of type QlanMeasurementMsgType.X_Outcome0  at 1000500000000
+1,000,500,000,000    INFO    correction             
+APPLYING CORRECTION: Applying minus root iY at client3
+1,000,500,000,000    INFO    correction             
+PROTOCOL ENDED: client3 executed Correction Protocol at 1000500000000
+1,001,000,000,000    INFO    measurement            
+MESSAGE RECEIVED: Orchestrator received ACK message from client1 at 1001000000000
+1,001,000,000,000    INFO    measurement            
+MESSAGE RECEIVED: Orchestrator received ACK message from client1 at 1001000000000
+1,001,000,000,000    INFO    measurement            
+MESSAGE RECEIVED: Orchestrator received ACK message from client2 at 1001000000000
+1,001,000,000,000    INFO    measurement            
+MESSAGE RECEIVED: Orchestrator received ACK message from client3 at 1001000000000
+2,000,000,000,000    INFO    correction             
+PROTOCOL STARTED: Correction Protocol starts at node client1
+2,000,000,000,000    INFO    correction             
+PROTOCOL STARTED: Correction Protocol starts at node client2
+2,000,000,000,000    INFO    correction             
+PROTOCOL STARTED: Correction Protocol starts at node client3
+2,000,000,000,000    INFO    measurement            
+PROTOCOL STARTED: Measurement Protocol starts at node Orchestrator
+2,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: init message_list {}
+2,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: adjacent_nodes {3: [0, 1], 4: [1, 2]}
+2,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: local_memory_identifiers [3, 4]
+2,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: CURRENT IDENTIFIER 3
+2,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: Na is now updated [0, 1]
+2,000,000,000,000    INFO    measurement            
+B0 ELECTION: Selected b0 = 1 from {3: [0, 1], 4: [1, 2]}
+2,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: Nb0 is now updated [3, 4]
+2,000,000,000,000    INFO    measurement            
+ORCHESTRATOR: Sending: QlanB0MsgType.B0_Designation to client2 at 2000000000000.0
+2,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: dest_sample [4, 1]
+2,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: message_list {4: [<QlanMeasurementMsgType.X_Outcome1: 6>], 1: [<QlanMeasurementMsgType.X_Outcome1: 6>]}
+2,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: updated adjacent nodes: {3: [], 4: [0, 2]}
+2,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: CURRENT IDENTIFIER 4
+2,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: Na is now updated [0, 2]
+2,000,000,000,000    INFO    measurement            
+B0 ELECTION: Selected b0 = 2 from {3: [], 4: [0, 2]}
+2,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: Nb0 is now updated [4]
+2,000,000,000,000    INFO    measurement            
+ORCHESTRATOR: Sending: QlanB0MsgType.B0_Designation to client3 at 2000000000000.0
+2,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: dest_sample [2]
+2,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: message_list {4: [<QlanMeasurementMsgType.X_Outcome1: 6>], 1: [<QlanMeasurementMsgType.X_Outcome1: 6>], 2: [<QlanMeasurementMsgType.X_Outcome1: 6>]}
+2,000,000,000,000    DEBUG   measurement            
+ORCHESTRATOR DEBUG: updated adjacent nodes: {3: [], 4: []}
+2,000,000,000,000    INFO    measurement            
+MESSAGE SENT: Orchestrator is sending: QlanMeasurementMsgType.X_Outcome1 to client3 at 2000000000000.0
+2,000,000,000,000    INFO    measurement            
+MESSAGE SENT: Orchestrator is sending: QlanMeasurementMsgType.X_Outcome1 to client2 at 2000000000000.0
+2,000,000,000,000    INFO    measurement            
+MESSAGE SENT: Orchestrator is sending: QlanMeasurementMsgType.X_Outcome1 to client3 at 2000000000000.0
+2,000,500,000,000    INFO    correction             
+MESSAGE RECEIVED: client2 received message from Orchestrator of type QlanB0MsgType.B0_Designation  at 2000500000000
+2,000,500,000,000    INFO    correction             
+MESSAGE RECEIVED: client3 received message from Orchestrator of type QlanB0MsgType.B0_Designation  at 2000500000000
+2,000,500,000,000    INFO    correction             
+MESSAGE RECEIVED: client3 received message from Orchestrator of type QlanMeasurementMsgType.X_Outcome1  at 2000500000000
+2,000,500,000,000    INFO    correction             
+APPLYING CORRECTION: Applying root iY at client3
+2,000,500,000,000    INFO    correction             
+PROTOCOL ENDED: client3 executed Correction Protocol at 2000500000000
+2,000,500,000,000    INFO    correction             
+MESSAGE RECEIVED: client2 received message from Orchestrator of type QlanMeasurementMsgType.X_Outcome1  at 2000500000000
+2,000,500,000,000    INFO    correction             
+APPLYING CORRECTION: Applying root iY at client2
+2,000,500,000,000    INFO    correction             
+PROTOCOL ENDED: client2 executed Correction Protocol at 2000500000000
+2,000,500,000,000    INFO    correction             
+MESSAGE RECEIVED: client3 received message from Orchestrator of type QlanMeasurementMsgType.X_Outcome1  at 2000500000000
+2,000,500,000,000    INFO    correction             
+APPLYING CORRECTION: Applying Z at client3
+2,000,500,000,000    INFO    correction             
+PROTOCOL ENDED: client3 executed Correction Protocol at 2000500000000
+2,001,000,000,000    INFO    measurement            
+MESSAGE RECEIVED: Orchestrator received ACK message from client3 at 2001000000000
+2,001,000,000,000    INFO    measurement            
+MESSAGE RECEIVED: Orchestrator received ACK message from client2 at 2001000000000
+2,001,000,000,000    INFO    measurement            
+MESSAGE RECEIVED: Orchestrator received ACK message from client3 at 2001000000000

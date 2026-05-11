@@ -7,7 +7,7 @@ from sequence.kernel.timeline import Timeline
 from sequence.topology.node import Node
 from sequence.components.memory import Memory
 
-from example.qlan.local_ghz_protocol import LocalGHZprotocol
+from local_ghz_protocol import LocalGHZprotocol
 
 class GHZStateManager:
     """
@@ -188,4 +188,3 @@ if __name__ == '__main__':
 
     run_experiment(tl=tl, memo_1=memo_1, memo_2=memo_2, memo_3=memo_3, memo_4=memo_4, use_protocol=True)
     display_state_information(tl=tl, memo_1=memo_1, memo_2=memo_2, memo_3=memo_3, memo_4=memo_4)
-
